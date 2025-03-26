@@ -142,18 +142,17 @@ Predicts sentiment and prints the model's precision, recall, F1-score, and accur
 
 > Observations
 
-After running the script, the model will output an accuracy percentage, usually around 85%-88% depending on the dataset and data split.
+High Accuracy: The model achieves 88.46% accuracy, indicating strong predictive performance.
 
-Classification Report shows:
+Balanced Precision & Recall:
 
-Precision: How accurate the positive/negative predictions are.
+Class 0 (negative reviews): 89% precision, 87% recall.
+Class 1 (positive reviews): 88% precision, 90% recall.
 
-Recall: How well the model identifies all positive/negative instances.
+The model correctly classifies positive and negative reviews almost equally well.
 
-F1-Score: Harmonic mean of precision and recall.
+Good F1-Scores: Both classes have F1-scores close to 0.88-0.89, meaning harmonious precision and recall.
 
-The model performs well and is capable of differentiating between positive and negative reviews based on textual content.
-
-TF-IDF vectorization significantly improves text representation for the model.
+Slightly Higher Recall for Positive Reviews: The model detects positive reviews slightly better than negative ones.
 
 >Dataset Source: Kaggle - IMDB Movie Reviews Dataset
