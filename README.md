@@ -156,4 +156,4 @@ The model performs well and is capable of differentiating between positive and n
 
 TF-IDF vectorization significantly improves text representation for the model.
 
-Dataset Source: Kaggle - IMDB Movie Reviews Dataset
+>Dataset Source: Kaggle - IMDB Movie Reviews Dataset
